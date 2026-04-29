@@ -1,0 +1,7 @@
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/my-secret-path"
+  to = "/.netlify/functions/connector"
+  status = 200
